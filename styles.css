@@ -1,0 +1,45 @@
+body {
+    background-color: #DFDEC4;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: #E9BBDE;
+    height: 30vh;
+    width: 50vh;
+    border: 3px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 10px #107274;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-around;
+    min-width: 300px;
+    min-height: 180px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.username  {
+    background-color: #E9BBDE;
+    border:none;
+    border-bottom: 2px solid #333;
+}
+
+.password {
+    background-color: #E9BBDE;
+    border:none;
+    border-bottom: 2px solid #333;
+}
+
+button {
+    background-color: #EF7C92;
+    width: 200px;
+    border-radius: 20px;
+}
